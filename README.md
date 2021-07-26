@@ -9,3 +9,11 @@
 -- rotate
 -- translateX
 -- transform-origin</small>
+
+### Hidden Search
+&nbsp;&nbsp;&nbsp;<small> Hidden search animated widget
+- background-image: linear-gradient
+- transform
+-- translateX
+- element position</small>
+

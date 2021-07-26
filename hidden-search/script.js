@@ -1,13 +1,8 @@
-const search = document.querySelector('button');
-const textInput = document.querySelector('input[type=text]');
+const search = document.querySelector('.search');
+const btn = document.querySelector('.btn');
+const input = document.querySelector('.input');
 
-search.addEventListener('click', () => {
-  if (textInput.classList.contains('show')) {
-    console.log('remove show');
-    textInput.classList.remove('show');
-  } else {
-    console.log('add show')
-    textInput.classList.add('show')
-  }
-
+btn.addEventListener('click', () => {
+  search.classList.toggle('active');
+  input.focus();
 })
