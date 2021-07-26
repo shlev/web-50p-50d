@@ -34,3 +34,7 @@ use function scaling source-range to target-range
     - element.getBoundingClientRect -> get element position/size info
     - window scroll event.
 
+### Split Landing Page
+#### &nbsp;&nbsp; toggle section focus on event
+##### &nbsp;&nbsp;&nbsp; 
+   
