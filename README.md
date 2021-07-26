@@ -23,8 +23,14 @@
 - calc() function
 - negative position
 
-setting negative position and increate image size to hide blur distance from the edges
+setting negative position and increase image size to hide blur distance from the edges
 
 use function scaling source-range to target-range
 </small>
+
+### Scroll animation
+#### &nbsp;&nbsp; add/remove content on scrolling vertically
+##### &nbsp;&nbsp;&nbsp; 
+    - element.getBoundingClientRect -> get element position/size info
+    - window scroll event.
 
