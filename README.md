@@ -37,4 +37,4 @@ use function scaling source-range to target-range
 ### Split Landing Page
 #### &nbsp;&nbsp; toggle section focus on event
 ##### &nbsp;&nbsp;&nbsp; 
-   
+   - ::before to create overlay
