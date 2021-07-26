@@ -1,3 +1,4 @@
 # 50 mini projects HTML, CSS, VanillaJS
 
-## Expanding Cards
+### Expanding Cards
+### Progress Steps
