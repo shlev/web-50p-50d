@@ -17,3 +17,14 @@
 -- translateX
 - element position</small>
 
+### Blury Image
+&nbsp;&nbsp;&nbsp;<small> Blur image by precentage
+- filter: ([x]px) 
+- calc() function
+- negative position
+
+setting negative position and increate image size to hide blur distance from the edges
+
+use function scaling source-range to target-range
+</small>
+
