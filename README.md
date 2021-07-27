@@ -85,3 +85,12 @@ use function scaling source-range to target-range
    - Array.filter()
    - Array.map()
    - event loop. managing async(including setTimeout, setInterval)
+
+### Animated Navigator
+#### &nbsp;&nbsp; cool navigator.
+##### &nbsp;&nbsp;&nbsp; 
+   - background-image: linear-gradient to split background colors;
+   - rotate more than 360 to spin.
+   - top,left take precedance over bottom,right
+      to avoid it set top,left to auto.
+
