@@ -45,3 +45,18 @@ use function scaling source-range to target-range
    - transition *cube-bazier* for animation.
    - transition delay to create bounce effect.
    - css selector '+' -> first child of type
+
+### Sound Board
+#### &nbsp;&nbsp; buttons playing sounds(.mp3)
+##### &nbsp;&nbsp;&nbsp; 
+   - audio element for playing sound.
+   - document.createElement , adding elements to DOM on the fly.
+
+### Dad Jokes
+#### &nbsp;&nbsp; randomly showing jokes fetched from api
+##### &nbsp;&nbsp;&nbsp; 
+   - letter spacing, line-height
+   - fetch api
+   - promise
+   - await async
+   - devtools network tab to check requests.
