@@ -74,3 +74,14 @@ use function scaling source-range to target-range
    - font-awesome icon in css
    - element parentNode
    - classList.toggle
+
+### Random Choice picker
+#### &nbsp;&nbsp; random selection of manually inserted options.
+##### &nbsp;&nbsp;&nbsp; 
+   - Input.focus()
+   - event.key
+   - Strin.split() 
+   - String.trim() clear spaces
+   - Array.filter()
+   - Array.map()
+   - event loop. managing async(including setTimeout, setInterval)
