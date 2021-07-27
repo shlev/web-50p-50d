@@ -60,3 +60,10 @@ use function scaling source-range to target-range
    - promise
    - await async
    - devtools network tab to check requests.
+
+### Event key Code
+#### &nbsp;&nbsp; key press show key data
+##### &nbsp;&nbsp;&nbsp; 
+   - display inline-flex => effect the flex container **NOT** the its contained flex items.
+   - keydown event.
+   - extract key param from event.
