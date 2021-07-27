@@ -67,3 +67,10 @@ use function scaling source-range to target-range
    - display inline-flex => effect the flex container **NOT** the its contained flex items.
    - keydown event.
    - extract key param from event.
+
+   ### FAQ
+#### &nbsp;&nbsp; key press show key data
+##### &nbsp;&nbsp;&nbsp; 
+   - font-awesome icon in css
+   - element parentNode
+   - classList.toggle
