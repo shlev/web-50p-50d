@@ -94,3 +94,12 @@ use function scaling source-range to target-range
    - top,left take precedance over bottom,right
       to avoid it set top,left to auto.
 
+### Increment Counter
+#### &nbsp;&nbsp; responsive counter, include speed count.
+##### &nbsp;&nbsp;&nbsp; 
+   - Roboto Mono font - tech font
+   - font-awesome fab for social icons
+   - font-awesome fa-3x increase size by 3
+   - data-x geting element data - getAttribute('data-target')
+   - @media(max-width: [x]px - responsive
+
