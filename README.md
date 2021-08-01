@@ -103,3 +103,18 @@ use function scaling source-range to target-range
    - data-x geting element data - getAttribute('data-target')
    - @media(max-width: [x]px - responsive
 
+### Drink Water
+#### &nbsp;&nbsp; select small cups to fill big cup, events, view.
+##### &nbsp;&nbsp;&nbsp; 
+   - element.nextElementSibling.
+
+### Movie App
+#### &nbsp;&nbsp; show movies from api, option to search by text.
+##### &nbsp;&nbsp;&nbsp; 
+   - Form - for search.
+   - flex-end
+   - fetch data from api using apikey
+   - api requests
+   - event.preventDeafult()
+   - window.location.reload();
+   - element appendChild
