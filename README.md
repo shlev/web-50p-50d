@@ -143,3 +143,11 @@ use function scaling source-range to target-range
    - using function and not arrow allows using this
    - .appendChild add element
    - remove circle element after done using it.
+
+### Drag n Drop
+#### &nbsp;&nbsp; drag image and attach to drop zones
+##### &nbsp;&nbsp;&nbsp; 
+   - @media query.
+   - draggble: true to enable drag.
+   - drag events. 
+   - setTimeout to pause for catching the drag 
