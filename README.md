@@ -151,3 +151,11 @@ use function scaling source-range to target-range
    - draggble: true to enable drag.
    - drag events. 
    - setTimeout to pause for catching the drag 
+
+### Drawing app
+#### &nbsp;&nbsp; drawing on canvas control color and line-width
+##### &nbsp;&nbsp;&nbsp; 
+   - canvas
+   - input:color
+   - .toolbox > * ->select all direct childs
+   - .toolbox > *:last-child select last child
