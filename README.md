@@ -118,3 +118,11 @@ use function scaling source-range to target-range
    - event.preventDeafult()
    - window.location.reload();
    - element appendChild
+
+### Background slider
+#### &nbsp;&nbsp; image slider, fits background image to highlighted image.
+##### &nbsp;&nbsp;&nbsp; 
+   - image positioning.
+   - ::before used to create overlay effect.
+   - box-shadow to create visual frame.
+
