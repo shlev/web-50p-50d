@@ -159,3 +159,9 @@ use function scaling source-range to target-range
    - input:color
    - .toolbox > * ->select all direct childs
    - .toolbox > *:last-child select last child
+
+### Kinetic loader
+#### &nbsp;&nbsp; triangles animation
+##### &nbsp;&nbsp;&nbsp; 
+   - css triangles
+   - keyframes animation
