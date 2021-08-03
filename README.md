@@ -181,3 +181,9 @@ use function scaling source-range to target-range
    - position fixed.
    - strech element with position fixed left-right = 0;
    - window scroll event
+
+### Vertical Slider
+#### &nbsp;&nbsp; animated Slider text order - last to first , image order - first to last
+##### &nbsp;&nbsp;&nbsp; 
+   - clientHeight 
+   - show elements by translateY in and out of actual view. 
