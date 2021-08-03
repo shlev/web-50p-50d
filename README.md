@@ -165,3 +165,10 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - css triangles
    - keyframes animation
+
+### Content placeholder
+#### &nbsp;&nbsp; card with cool loading animation
+##### &nbsp;&nbsp;&nbsp; 
+   - https://randomuser.me/ getting random user data
+   - rounded image
+   - gradient background animation
