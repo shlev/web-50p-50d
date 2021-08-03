@@ -8,8 +8,8 @@ generateJokePromise();
 async function generateJokeSync() {
   const config = {
     headers: {
-      Accept: 'application/json'
-    }
+      Accept: 'application/json',
+    },
   };
 
   const res = await fetch('https://icanhazdadjoke.com', config);
@@ -22,13 +22,13 @@ async function generateJokeSync() {
 function generateJokePromise() {
   const config = {
     headers: {
-      'Accept': 'application/json'
-    }
-  }
+      Accept: 'application/json',
+    },
+  };
 
   fetch('https://icanhazdadjoke.com', config)
-    .then(res => res.json())
-    .then(data => {
+    .then((res) => res.json())
+    .then((data) => {
       jokeEl.innerHTML = data.joke;
     });
 }

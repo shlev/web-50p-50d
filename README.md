@@ -188,8 +188,22 @@ use function scaling source-range to target-range
    - clientHeight 
    - show elements by translateY in and out of actual view. 
 
-### toast notifications
+### Toast notifications
 #### &nbsp;&nbsp; add floating messages on click.
 ##### &nbsp;&nbsp;&nbsp; 
    - flex-end 
    - add created element.
+
+### Github Profiles
+#### &nbsp;&nbsp; search&present card of user from github api
+##### &nbsp;&nbsp;&nbsp; 
+   - main tag  
+   - use 'axios' to get api data. ( promises)
+   - font-family: inherit
+   - input::placeholder
+   - margin y-axis not working on inline objects
+   - Array.slice(start, end_excluded)
+   - target=_blank open new tab with link
+   - form submit event , e.preventDefault to prevent form reset
+   - font-size default 16px
+   - error handling try-catch
