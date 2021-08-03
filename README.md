@@ -172,3 +172,12 @@ use function scaling source-range to target-range
    - https://randomuser.me/ getting random user data
    - rounded image
    - gradient background animation
+
+### Sticky Navigation
+#### &nbsp;&nbsp; nav stick on scroll and change view
+##### &nbsp;&nbsp;&nbsp; 
+   - https://images.pexels.com free images
+   - ::before to create overlay.
+   - position fixed.
+   - strech element with position fixed left-right = 0;
+   - window scroll event
