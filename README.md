@@ -187,3 +187,9 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - clientHeight 
    - show elements by translateY in and out of actual view. 
+
+### toast notifications
+#### &nbsp;&nbsp; add floating messages on click.
+##### &nbsp;&nbsp;&nbsp; 
+   - flex-end 
+   - add created element.

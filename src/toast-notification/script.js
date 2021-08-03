@@ -1,33 +1,35 @@
-const notify_container = document.getElementById('notify-container');
-const showBtn = document.getElementById('show');
+const button = document.getElementById('button');
+const toasts = document.getElementById('toasts');
 
-showBtn.addEventListener('click', addNotification);
+const messages = [
+  'Message One',
+  'Message Two',
+  'Message Three',
+  'Message Four',
+];
 
-function addNotification() {
-  const notifyEl = document.createElement('button');
-  notifyEl.className = 'btn notify';
+const types = ['info', 'success', 'error'];
 
-  notifyEl.style.color = getRandomColor();
-  notifyEl.innerHTML = getRandomMessage();
+button.addEventListener('click', () => createNotification());
 
-  notify_container.appendChild(notifyEl);
+function createNotification(message = null, type = null) {
+  const notif = document.createElement('div');
+  notif.classList.add('toast');
+  notif.classList.add(type ? type : getRandomType());
 
-  setTimeout(() => notify_container.removeChild(notifyEl), 4000);
-}
+  notif.innerText = message ? message : getRandomMessage();
 
-function getRandomColor() {
-  const colors = ['purple', 'green', 'blue', 'yellow'];
-  const rnd = getRnd(colors.length);
-  console.log(colors[rnd]);
-  return colors[rnd];
+  toasts.appendChild(notif);
+
+  setTimeout(() => {
+    notif.remove();
+  }, 3000);
 }
 
 function getRandomMessage() {
-  const messages = ['Message 1', 'Message 2', 'Message Three', 'Message Four'];
-  const rnd = getRnd(messages.length);
-  return messages[rnd];
+  return messages[Math.floor(Math.random() * messages.length)];
 }
 
-function getRnd(max) {
-  return Math.floor(Math.random() * max);
+function getRandomType() {
+  return types[Math.floor(Math.random() * types.length)];
 }
