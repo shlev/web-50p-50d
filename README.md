@@ -234,3 +234,8 @@ use function scaling source-range to target-range
    - copy to clipboard pattern
        - textarea.select()
        - document.execCommand('copy')
+
+### Good, Cheap, Fast
+#### &nbsp;&nbsp; styled checkbox
+##### &nbsp;&nbsp;&nbsp; 
+   - label fire event of related input (attribute for)
