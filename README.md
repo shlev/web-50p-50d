@@ -207,3 +207,10 @@ use function scaling source-range to target-range
    - form submit event , e.preventDefault to prevent form reset
    - font-size default 16px
    - error handling try-catch
+
+### Double Click Heart
+#### &nbsp;&nbsp; manual double click listener
+##### &nbsp;&nbsp;&nbsp; 
+   - font family - Oswald
+   - event clientX clientY click position
+   - element position by offsetTop, offsetLeft 
