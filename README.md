@@ -239,3 +239,4 @@ use function scaling source-range to target-range
 #### &nbsp;&nbsp; styled checkbox
 ##### &nbsp;&nbsp;&nbsp; 
    - label fire event of related input (attribute for)
+   - animation-fill-mode forwards, stays in finised animation position.
