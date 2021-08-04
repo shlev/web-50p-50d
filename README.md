@@ -240,3 +240,21 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - label fire event of related input (attribute for)
    - animation-fill-mode forwards, stays in finised animation position.
+
+### Good, Cheap, Fast
+#### &nbsp;&nbsp; styled checkbox
+##### &nbsp;&nbsp;&nbsp; 
+   - font-family Poppins
+
+### Notes App
+#### &nbsp;&nbsp; add notes , on save view as markdown, saved to localStorage
+##### &nbsp;&nbsp;&nbsp; 
+   - mark cdn to convert text to markdown.
+   - localStorage
+       - setItem
+       - removeItem
+       - clear 
+   - JSON 
+      - stringify
+      - parse
+   - DevTool -> Application -> localStorage
