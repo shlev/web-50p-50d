@@ -219,4 +219,18 @@ use function scaling source-range to target-range
 #### &nbsp;&nbsp; manual double click listener
 ##### &nbsp;&nbsp;&nbsp; 
    - setInterval is call once! in order to update time use setTimeout.
-   -input type number 
+   -input type number.
+
+### Password generator
+#### &nbsp;&nbsp; setting password generator, copy to clipboard
+##### &nbsp;&nbsp;&nbsp; 
+   - Font -> Muli
+   - word-wrap: break word
+   - input:checked checked attr
+   - String.fromCharCode()
+   - Uppercase char 65-90
+   - Lowercase char 97-122
+   - Number char    48-57
+   - copy to clipboard pattern
+       - textarea.select()
+       - document.execCommand('copy')
