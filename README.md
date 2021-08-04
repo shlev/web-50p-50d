@@ -214,3 +214,9 @@ use function scaling source-range to target-range
    - font family - Oswald
    - event clientX clientY click position
    - element position by offsetTop, offsetLeft 
+
+### Auto Text Effect
+#### &nbsp;&nbsp; manual double click listener
+##### &nbsp;&nbsp;&nbsp; 
+   - setInterval is call once! in order to update time use setTimeout.
+   -input type number 
