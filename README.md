@@ -258,3 +258,14 @@ use function scaling source-range to target-range
       - stringify
       - parse
    - DevTool -> Application -> localStorage
+
+### Animated Countdown
+#### &nbsp;&nbsp; cool animated countdown
+##### &nbsp;&nbsp;&nbsp; 
+   - manage to states [counter, final]
+   - bounce effect with rotate 
+   - centering with position.
+   - animatation & keyframes.
+   - css transform origin [x y] 
+   - animationend event
+   - Element.nextElementSibling 
