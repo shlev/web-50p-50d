@@ -294,3 +294,9 @@ use function scaling source-range to target-range
    - inline objects margin default 0
    - anoynmos async await
    - String.padStart() fill in to minimum string length
+
+### Mobile Tab Navigation
+#### &nbsp;&nbsp; mobile navigation
+##### &nbsp;&nbsp;&nbsp; 
+   - font Open Sans
+   - li default padding&margin > 0
