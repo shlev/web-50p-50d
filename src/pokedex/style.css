@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right,gray, yellow)
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon {
+  width: 200px;
+  background: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  background: lightblue;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.id {
+  background-color: pink;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.name {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.type {
+  font-size: 0.9rem;
+}
+
+
+

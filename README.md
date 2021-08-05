@@ -281,3 +281,9 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - mouse over event
    - mouse out event
+
+### pokedex
+#### &nbsp;&nbsp; responsive pokemon cards , api data.
+##### &nbsp;&nbsp;&nbsp; 
+   - pokemon api
+   - background-image linear gradient
