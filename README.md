@@ -285,5 +285,12 @@ use function scaling source-range to target-range
 ### pokedex
 #### &nbsp;&nbsp; responsive pokemon cards , api data.
 ##### &nbsp;&nbsp;&nbsp; 
+   - font Lato
    - pokemon api
    - background-image linear gradient
+   - fetch
+   - async await
+   - box-shadow
+   - inline objects margin default 0
+   - anoynmos async await
+   - String.padStart() fill in to minimum string length
