@@ -11,8 +11,8 @@ function addSquares() {
 function addSquare() {
   const square = document.createElement('div');
   square.className = 'square';
-  square.addEventListener('mouseenter', paintSquare);
-  square.addEventListener('mouseleave', cleanSquare);
+  square.addEventListener('mouseover', paintSquare);
+  square.addEventListener('mouseout', cleanSquare);
   boardEl.appendChild(square);
 }
 

@@ -275,3 +275,9 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - use last and first images twice to perform smooth transition  of last to first.
    - clearInterval(intervalName). 
+
+### Hoverboard
+#### &nbsp;&nbsp; paint boards squares
+##### &nbsp;&nbsp;&nbsp; 
+   - mouse over event
+   - mouse out event
