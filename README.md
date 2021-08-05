@@ -300,3 +300,10 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - font Open Sans
    - li default padding&margin > 0
+
+### Image Password Strength
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - tailwind - css Framework
+   - filter: blur()
+   - set size by absolute position edges.
