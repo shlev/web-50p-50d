@@ -269,3 +269,9 @@ use function scaling source-range to target-range
    - css transform origin [x y] 
    - animationend event
    - Element.nextElementSibling 
+
+### Image Carousel
+#### &nbsp;&nbsp; image carousel with smooth transition from last to first
+##### &nbsp;&nbsp;&nbsp; 
+   - use last and first images twice to perform smooth transition  of last to first.
+   - clearInterval(intervalName). 

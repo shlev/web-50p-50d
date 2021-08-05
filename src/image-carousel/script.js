@@ -1,36 +1,60 @@
-const images = document.querySelectorAll('img');
-const prev = document.querySelector('.prev');
-const next = document.querySelector('.next');
-const carousel = document.getElementById('carousel');
-images.forEach((imgEl, idx) => imgEl.left = `${idx*100}%`);
+const imgs = document.getElementById('imgs');
+const leftBtn = document.getElementById('left');
+const rightBtn = document.getElementById('right');
 
-prev.addEventListener('click', prevImage);
-next.addEventListener('click', nextImage);
+const img = document.querySelectorAll('#imgs img');
 
-let currentImg = 1;
+let idx = 1;
 
-rotateCarousel();
+let interval = setInterval(run, 2000);
 
-function rotateCarousel() {
-  nextImage();
-  setTimeout(rotateCarousel, 2000);
+function run() {
+  idx++;
+  changeImage();
 }
 
-function updateView() {
-  carousel.style.transform = `translateX(${-100 * currentImg}%`;
+function changeImage() {
+  if (idx > img.length - 1) {
+    idx = img.length - 1;
+
+    imgs.style.transition = 'all, linear, 1s';
+    imgs.style.transform = `translateX(${-idx * 500}px)`;
+
+    setTimeout(function () {
+      idx = 1;
+      imgs.style.transition = '';
+      imgs.style.transform = `translateX(${-500}px)`;
+    }, 0);
+  } else if (idx < 0) {
+    idx = 0;
+
+    imgs.style.transition = 'all, linear, 1s';
+    imgs.style.transform = `translateX(${-idx * 500}px)`;
+
+    setTimeout(function () {
+      idx = img.length - 2;
+      imgs.style.transition = '';
+      imgs.style.transform = `translateX(${-idx * 500}px)`;
+    }, 0);
+  } else {
+    imgs.style.transition = 'all, linear, 1s';
+    imgs.style.transform = `translateX(${-idx * 500}px)`;
+  }
 }
 
-function prevImage() {
-  currentImg--;
-  currentImg = currentImg < 0 ? images.length - 1 : currentImg;
-  updateView();
+function resetInterval() {
+  clearInterval(interval);
+  interval = setInterval(run, 2000);
 }
 
-function nextImage() {
-  currentImg++;
-  currentImg = currentImg > images.length - 1 ? 0 : currentImg;
-  updateView();
-}
+rightBtn.addEventListener('click', () => {
+  idx++;
+  changeImage();
+  resetInterval();
+});
 
-
-
+leftBtn.addEventListener('click', () => {
+  idx--;
+  changeImage();
+  resetInterval();
+});
