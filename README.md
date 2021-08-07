@@ -316,4 +316,21 @@ use function scaling source-range to target-range
    - transform: rotateZ
    - ::before :after to create 3d effect
    - image position relative to container.
-   - background-position x,y 
+   - background-position x,y
+
+### Verify Account UI
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - Font Muli
+   - css caret-color:transparent -> hide caret of input
+   - **hide input:number arrows.**
+      
+      code::-webkit-outer-spin-button,
+      .code::-webkit-inner-spin-button
+      ```
+      {
+         -webkit-appearance: none;
+         margin: 0;
+      }
+      ```
+   - code::valid 
