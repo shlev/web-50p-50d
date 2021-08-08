@@ -28,7 +28,7 @@ setting negative position and increase image size to hide blur distance from the
 use function scaling source-range to target-range
 </small>
 
-### Scroll animation
+### Scroll Animation
 #### &nbsp;&nbsp; add/remove content on scrolling vertically
 ##### &nbsp;&nbsp;&nbsp; 
     - element.getBoundingClientRect -> get element position/size info
@@ -61,7 +61,7 @@ use function scaling source-range to target-range
    - await async
    - devtools network tab to check requests.
 
-### Event key Code
+### Event Key Code
 #### &nbsp;&nbsp; key press show key data
 ##### &nbsp;&nbsp;&nbsp; 
    - display inline-flex => effect the flex container **NOT** the its contained flex items.
@@ -75,7 +75,7 @@ use function scaling source-range to target-range
    - element parentNode
    - classList.toggle
 
-### Random Choice picker
+### Random Choice Picker
 #### &nbsp;&nbsp; random selection of manually inserted options.
 ##### &nbsp;&nbsp;&nbsp; 
    - Input.focus()
@@ -119,7 +119,7 @@ use function scaling source-range to target-range
    - window.location.reload();
    - element appendChild
 
-### Background slider
+### Background Slider
 #### &nbsp;&nbsp; image slider, fits background image to highlighted image.
 ##### &nbsp;&nbsp;&nbsp; 
    - image positioning.
@@ -133,7 +133,7 @@ use function scaling source-range to target-range
    - css var set by selection
    - transform-origin , set anchor of transform
 
-### Button ripple effect
+### Button Ripple Effect
 #### &nbsp;&nbsp; visual effect by click position.
 ##### &nbsp;&nbsp;&nbsp; 
    - Event.clientX Event.clientY
@@ -152,7 +152,7 @@ use function scaling source-range to target-range
    - drag events. 
    - setTimeout to pause for catching the drag 
 
-### Drawing app
+### Drawing App
 #### &nbsp;&nbsp; drawing on canvas control color and line-width
 ##### &nbsp;&nbsp;&nbsp; 
    - canvas
@@ -160,13 +160,13 @@ use function scaling source-range to target-range
    - .toolbox > * ->select all direct childs
    - .toolbox > *:last-child select last child
 
-### Kinetic loader
+### Kinetic Loader
 #### &nbsp;&nbsp; triangles animation
 ##### &nbsp;&nbsp;&nbsp; 
    - css triangles
    - keyframes animation
 
-### Content placeholder
+### Content Placeholder
 #### &nbsp;&nbsp; card with cool loading animation
 ##### &nbsp;&nbsp;&nbsp; 
    - https://randomuser.me/ getting random user data
@@ -188,7 +188,7 @@ use function scaling source-range to target-range
    - clientHeight 
    - show elements by translateY in and out of actual view. 
 
-### Toast notifications
+### Toast Notifications
 #### &nbsp;&nbsp; add floating messages on click.
 ##### &nbsp;&nbsp;&nbsp; 
    - flex-end 
@@ -221,7 +221,7 @@ use function scaling source-range to target-range
    - setInterval is call once! in order to update time use setTimeout.
    -input type number.
 
-### Password generator
+### Password Generator
 #### &nbsp;&nbsp; setting password generator, copy to clipboard
 ##### &nbsp;&nbsp;&nbsp; 
    - Font -> Muli
@@ -282,7 +282,7 @@ use function scaling source-range to target-range
    - mouse over event
    - mouse out event
 
-### pokedex
+### Pokedex
 #### &nbsp;&nbsp; responsive pokemon cards , api data.
 ##### &nbsp;&nbsp;&nbsp; 
    - font Lato
@@ -341,4 +341,9 @@ use function scaling source-range to target-range
 ##### &nbsp;&nbsp;&nbsp; 
    - randomuser.me API
    - li:not(:last-of-type)
-   
+
+### Feed UI Design
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - randomuser.me API
+   - li:not(:last-of-type)
