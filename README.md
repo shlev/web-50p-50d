@@ -334,3 +334,11 @@ use function scaling source-range to target-range
       }
       ```
    - code::valid 
+
+
+### Live User Filter
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - randomuser.me API
+   - li:not(:last-of-type)
+   
