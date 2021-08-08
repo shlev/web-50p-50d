@@ -345,5 +345,10 @@ use function scaling source-range to target-range
 ### Feed UI Design
 #### &nbsp;&nbsp; 
 ##### &nbsp;&nbsp;&nbsp; 
-   - randomuser.me API
-   - li:not(:last-of-type)
+   - font Montserrat
+   - https://image.flaticon.com/icons/svg/[num]
+   - box-shadow 0 0 10px rgba(0,0,0,0.3) all borders
+   - flex 1
+   - event bubbling, event propagtion
+   - e.target.parentNode 
+   - e.target.nextElementSibling
