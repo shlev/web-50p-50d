@@ -370,3 +370,11 @@ use function scaling source-range to target-range
    - https://logos-download.com/
    - transition: transform
    - dark color rgb(34, 31, 31)
+
+### Quiz App
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - radio buttons
+   - font Poppins
+   - color blue-gray #b8c6db
+   - color purple #8e44ad #732d91
