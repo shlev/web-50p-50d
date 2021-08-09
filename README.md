@@ -352,3 +352,13 @@ use function scaling source-range to target-range
    - event bubbling, event propagtion
    - e.target.parentNode 
    - e.target.nextElementSibling
+
+### Custom Range Slider
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - font Lato
+   - background-image- linear gradient
+   - webkit styles
+   - different borwser styling
+   - range to range convert function
+   - get computedStyle(element).getPropertyValue(property)
