@@ -362,3 +362,11 @@ use function scaling source-range to target-range
    - different borwser styling
    - range to range convert function
    - get computedStyle(element).getPropertyValue(property)
+
+### Netflix Mobile Navigation
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - font Muli
+   - https://logos-download.com/
+   - transition: transform
+   - dark color rgb(34, 31, 31)
