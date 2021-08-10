@@ -378,3 +378,15 @@ use function scaling source-range to target-range
    - font Poppins
    - color blue-gray #b8c6db
    - color purple #8e44ad #732d91
+
+### Testimonial Box Switcher
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - font Montserrat
+   - image from (https://randomuser.me/api/portraits/women/46.jpg)
+   - purple-blue #476ce4
+   - test-align:justify
+   - keyframes
+       - since only start value, end value is deault scaleX(1)
+   - media query
+   - destructure object
