@@ -395,3 +395,15 @@ use function scaling source-range to target-range
 #### &nbsp;&nbsp; 
 ##### &nbsp;&nbsp;&nbsp; 
    - get random image (https://source.unsplash.com/random/)
+
+### Todo List
+#### &nbsp;&nbsp; 
+##### &nbsp;&nbsp;&nbsp; 
+   - font Poppins
+   - light purple rgb(179, 131, 226)
+   - input outline-color
+   - text-decoration: line-through
+   - input attribute autocomplete="off/on"
+   - 'contextmenu' event to catch right-click event
+   - save to local-storage JSON.stringify
+   - JSON.parse
